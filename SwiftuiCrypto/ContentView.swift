@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftuiCrypto
-//
-//  Created by ATEU on 29/12/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {

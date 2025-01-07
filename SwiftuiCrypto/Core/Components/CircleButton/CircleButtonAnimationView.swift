@@ -1,10 +1,3 @@
-//
-//  CircleButtonAnimationView.swift
-//  SwiftuiCrypto
-//
-//  Created by ATEU on 05/01/25.
-//
-
 import SwiftUI
 struct CircleButtonAnimationView : View {
     
