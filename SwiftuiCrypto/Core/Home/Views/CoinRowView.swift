@@ -7,10 +7,11 @@ struct CoinRowView : View {
         HStack (spacing :0){
             leftColumn
             Spacer()
-            if showHoldingsColumn{
-                centerColumn
-            }
-            leftColumn
+            if showHoldingsColumn {  
+                           centerColumn
+                
+                       }
+            rightColumn
                 
         }.font(.subheadline)
     }
@@ -18,7 +19,7 @@ struct CoinRowView : View {
 
 struct coinRowView_Previews : PreviewProvider {
     static var previews : some View {
-        CoinRowView(coin: dev.coin, showHoldingsColumn: true)
+        CoinRowView(coin: dev.coin, showHoldingsColumn: false)
     }
 }
 extension CoinRowView {

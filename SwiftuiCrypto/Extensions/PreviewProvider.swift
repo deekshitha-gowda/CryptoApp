@@ -10,7 +10,7 @@ extension PreviewProvider {
 class Developerpreview {
     static let instance = Developerpreview()
     private init() {}   // To only initialize with in the class
-    
+    let HomeVm = HomeViewModel()
     let coin = CoinModel(
        id: "bitcoin",
        symbol: "btc",

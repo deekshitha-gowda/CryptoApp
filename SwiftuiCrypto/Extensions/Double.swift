@@ -59,6 +59,7 @@ extension Double{
     ///```
     ///
     func asNumberString() -> String{
+        
         return String(format: "%.2f", self)
     }
     /// converts a double into string representation with percentage
