@@ -24,7 +24,7 @@ class Developerpreview {
        high24H: 61712,
        low24H: 56220,
        priceChange24H: 3952.64,
-       priceChangePercentage24H: 6.87944,
+       priceChangePercentage24H: -6.87944,
        marketCapChange24H: 72110681879,
        marketCapChangePercentage24H: 6.74171,
        circulatingSupply: 18653043,

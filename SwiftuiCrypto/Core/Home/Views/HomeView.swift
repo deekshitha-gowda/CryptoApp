@@ -13,6 +13,8 @@ struct HomeView: View {
             //Content layer
             VStack{
                 homeHeader
+                columntitles
+              
                 if !showPortFolio {
                     allCoinsList
                         
@@ -85,5 +87,18 @@ extension HomeView {
         }.listStyle(PlainListStyle())
             .transition(.move(edge: .trailing))
         
+    }
+    private var columntitles : some View {
+        HStack{
+            Text("Coin")
+            Spacer()
+            if showPortFolio {
+                Text("Holdings")
+            }
+            
+            Text("Price").frame(width: UIScreen.main.bounds.width / 3.5)
+        }.font(.caption)
+            .foregroundColor(Color.theme.secondaryText)
+            .padding(.horizontal)
     }
 }
