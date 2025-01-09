@@ -23,10 +23,6 @@ struct HomeView: View {
                     portfolioCoinsList
                         
                 }
-                
-                
-                
-                
                 Spacer(minLength: 0)
                 
             }
