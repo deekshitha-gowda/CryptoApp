@@ -13,9 +13,9 @@ extension Double{
        let formatter =  NumberFormatter()
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
-//        formatter.locale = .current // this is default value
-//        formatter.currencyCode = "USD" // change currency
-//        formatter.currencySymbol = "$" // change currency symbol
+        formatter.locale = .current // this is default value
+        formatter.currencyCode = "USD" // change currency
+        formatter.currencySymbol = "$" // change currency symbol
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 2
         return formatter
@@ -36,9 +36,9 @@ extension Double{
        let formatter =  NumberFormatter()
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
-//        formatter.locale = .current // this is default value
-//        formatter.currencyCode = "USD" // change currency
-//        formatter.currencySymbol = "$" // change currency symbol
+        formatter.locale = .current // this is default value
+        formatter.currencyCode = "USD" // change currency
+        formatter.currencySymbol = "$" // change currency symbol
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 6
         return formatter
